@@ -1,0 +1,45 @@
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    gap: 3rem;
+}
+
+.hero-section {
+    font-size: 1.5rem;
+    max-width: 70vh;
+    text-align: center;
+}
+
+.hero-section .main-heading,
+.hero-section .sub-heading {
+    margin: 2rem;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    border: solid var(--green-ryb);
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 12rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background: var(--green-ryb);
+    color: white;
+}
+
+.btn-secondary {
+    color: black;
+}
