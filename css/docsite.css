@@ -1,0 +1,30 @@
+
+
+.main-section {
+    margin: 2rem;
+    flex: 2 2 auto;
+}
+
+.main-section p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.code-section {
+    height: max-content;
+    /* background-color: #023047ff; */
+    /* background-color: #073b4cff; */
+    background-color: #55a630ff;
+    color: white;
+    border-radius: 10px;
+}
+
+.code-section pre {
+    padding: 1rem;
+}
+
+.code-section .html-snippet {
+    font-size: 1rem;
+    padding: 1rem;
+}
