@@ -6,6 +6,20 @@
     text-decoration: none;
 }
 
+.btn-icon {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn-float {
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
 .btn-primary {
     background-color: #007bff;
     color: white;
@@ -55,7 +69,7 @@
 .btn-outline-secondary {
     background-color: white;
     color: #6c757d;
-    border: 1px solid#6c757d;
+    border: 1px solid #6c757d;
 }
 
 .btn-outline-success {
