@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+        <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li><a class="link" href="../components/alert/alert.html">Alert</a></li>
+                    <li><a class="link" href="#">Avatar</a></li>
+                    <li><a class="link" href="#">Badge</a></li>
+                    <li><a class="link" href="#">Button</a></li>
+                    <li><a class="link" href="#">Card</a></li>
+                    <li><a class="link" href="#">Image</a></li>
+                    <li><a class="link" href="#">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Button</h1>
+            <p>The Button component is used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation..</p>
+            <br /><br />
+            <h1 class="heading">Solid Buttons</h1>
+            <p>Solid Buttons are buttons with a filled background</p>
+
+            <div class="example-row">
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-secondary">Seconday</button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-info">Info</button>
+                <button class="btn btn-light">Light</button>
+                <button class="btn btn-dark">Dark</button>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;button class="btn btn-primary">Primary&lt;/button>
+                        <br>
+                        &ltbutton class="btn btn-secondary">Seconday&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-success">Success&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-danger">Danger&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-warning">Warning&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-info">Info&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-light">Light&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-dark">Dark&lt/button>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Outlined Buttons</h1>
+            <p>Oulined Buttons are buttons without a solid filled background. To use replace btn-variant with btn-outline-variant</p>
+
+            <div class="example-row">
+                <button class="btn btn-outline-primary">Primary</button>
+                <button class="btn btn-outline-secondary">Seconday</button>
+                <button class="btn btn-outline-success">Success</button>
+                <button class="btn btn-outline-danger">Danger</button>
+                <button class="btn btn-outline-warning">Warning</button>
+                <button class="btn btn-outline-info">Info</button>
+                <button class="btn btn-outline-light">Light</button>
+                <button class="btn btn-outline-dark">Dark</button>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;button class="btn btn-outline-primary">Primary&lt;/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-secondary">Seconday&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-success">Success&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-danger">Danger&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-warning">Warning&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-info">Info&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-outline-light">Light&lt/button>
+                        <br>
+                        &ltbutton class="btn btn-ouline-dark">Dark&lt/button>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Link Buttons</h1>
+            <p>Link buttons are links acting like buttons. Usage is same as other buttons</p>
+
+            <div class="example-row">
+                <a href="#" class="btn btn-primary">Primary</a>
+                <a href="#" class="btn btn-outline-secondary">Seconday</a>
+                <a href="#" class="btn btn-outline-success">Success</a>
+                <a href="$" class="btn btn-danger">Danger</a>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;a href="#" class="btn btn-outline-primary">Primary&lt;/a>
+                        <br>
+                        &lt;a href="#"  class="btn btn-outline-secondary">Seconday&lt/a>
+                        <br>
+                        &lt;a href="#"  class="btn btn-outline-success">Success&lt/a>
+                        <br>
+                        &lt;a href="#" class="btn btn-danger">Danger&lt/a>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Icon Buttons</h1>
+            <p>To use Icon buttons use class btn-icon with buttons or links</p>
+
+            <div class="example-row">
+                <button class="btn btn-icon btn-success">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Add to cart
+                </button>
+                <button class="btn btn-icon btn-primary">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    Like
+                </button>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;button class="btn btn-icon btn-success">
+                            &lt;i class="fa-solid fa-cart-shopping"></i>
+                            Add to cart
+                        &lt;/button>
+                        <br>
+                        &lt;button class="btn btn-icon btn-primary">
+                            &lt;i class="fa-solid fa-thumbs-up"></i>
+                            Like
+                        &lt;/button>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Floating Action Buttons</h1>
+            <p>To use Floating action buttons add class .btn-float to buttons</p>
+
+            <div class="example-row">
+                <button class="btn-float btn-info">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="btn-float btn-primary">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                </button>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;button class="btn-float btn-info">
+                            &lt;i class="fa-solid fa-plus"></i>
+                        &lt;/button>
+                        <br>
+                        &lt;button class="btn-float btn-primary">
+                            &lt;i class="fa-solid fa-thumbs-up"></i>
+                        &lt;/button>
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
