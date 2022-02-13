@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li><a class="link" href="../components/alert/alert.html">Alert</a></li>
+                    <li><a class="link" href="#">Avatar</a></li>
+                    <li><a class="link" href="#">Badge</a></li>
+                    <li><a class="link" href="#">Button</a></li>
+                    <li><a class="link" href="#">Card</a></li>
+                    <li><a class="link" href="#">Image</a></li>
+                    <li><a class="link" href="#">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Alert</h1>
+            <p>Alerts are used to communicate a state that affects a system, feature or page. displays a short,
+                important message in a way that attracts the user's attention without interrupting the user's task.</p>
+            <br /><br />
+            <h1 class="heading">Basic Alerts</h1>
+            <p>Basic Alerts are simple alerts displaying messages within an outlined container</p>
+
+            <div class="example">
+                <div class="alert alert-success">This is a success alert message</div>
+                <div class="alert alert-warning">This is a warning alert message</div>
+                <div class="alert alert-info">This is an info alert message</div>
+                <div class="alert alert-danger">This is a danger alert messge</div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &ltdiv class="alert alert-success">This is a success alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-warning">This is a warning alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-info">This is an info alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-danger">This is a danger alert messge&lt/div>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Filled Alerts</h1>
+            <p>Filled Alerts are simple alerts displaying messages within an filled container</p>
+
+            <div class="example">
+                <div class="alert alert-success-fl">This is a success alert message</div>
+                <div class="alert alert-warning-fl">This is a warning alert message</div>
+                <div class="alert alert-info-fl">This is an info alert message</div>
+                <div class="alert alert-danger-fl">This is a danger alert messge</div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &ltdiv class="alert alert-success-fl">This is a success alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-warning-fl">This is a warning alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-info-fl">This is an info alert message&lt/div>
+                        <br>
+                        &ltdiv class="alert alert-danger-fl">This is a danger alert messge&lt/div>
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
