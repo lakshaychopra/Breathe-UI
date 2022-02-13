@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css" />
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="../avatar/avatar.css" />
+    <link rel="stylesheet" href="badge.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li>
+                        <a class="link" href="../components/alert/alert.html">Alert</a>
+                    </li>
+                    <li><a class="link" href="#">Avatar</a></li>
+                    <li><a class="link" href="#">Badge</a></li>
+                    <li><a class="link" href="#">Button</a></li>
+                    <li><a class="link" href="#">Card</a></li>
+                    <li><a class="link" href="#">Image</a></li>
+                    <li><a class="link" href="#">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Badge</h1>
+            <p>
+                Badge are used to add additional information to the content.
+                For example no of notifications, if a user is offline or
+                online.
+            </p>
+            <br /><br />
+            <h1 class="heading">User Status Badge</h1>
+            <p>
+                Profile Badge is used to show the current status of a user.
+            </p>
+
+            <div class="example-row">
+                <div class="badge">
+                    <img class="avatar" src="../../assests/avatar/1.jpg" alt="" />
+                    <div class="online"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar" src="../../assests/avatar/Female-LinkedIn-portrait.jpg" alt="" />
+                    <div class="idle"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar"
+                        src="../../assests/avatar/wp-2021-01-linkedin-profile-picture-professional-attire.webp" alt="" />
+                    <div class="offline"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar"
+                        src="../../assests/avatar/wp-2021-01-linkedin-profile-picture-professional-attire.webp" alt="" />
+                    <div class="dnd"></div>
+                </div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="badge">
+                            &ltimg class="avatar" src="url-of-image" alt="Profile Pic" />
+                            &ltdiv class="online">&lt;/div&gt
+                        &lt;/div>
+                        <br>
+                        &ltdiv class="badge">
+                            &ltimg class="avatar" src="path of image" alt="Profile Pic" />
+                            &ltdiv class="idle">&lt/div>
+                        &lt;/div>
+                        <br>
+                        &ltdiv class="badge">
+                            &ltimg class="avatar"src="path of image" alt="Profile Pic" />
+                            &ltdiv class="offline">&lt/div>
+                        &lt;/div&gt
+                        <br>
+                        &ltdiv class="badge">
+                            &ltimg class="avatar" src="path of image" alt="Profile Pic" />
+                            &ltdiv class="dnd">&lt/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading"> Number Badge </h1>
+            <p>
+                Number Badge reperesents no of notifications present.
+            </p>
+
+            <div class="example-row">
+                <div class="badge">
+                    <img class="icon" src="../../assests/icons/email.png" alt="" />
+                    <div class="number success">10</div>
+                </div>
+                <div class="badge">
+                    <img class="icon" src="../../assests/icons/shopping-cart.png" alt="" />
+                    <div class="number danger">6</div>
+                </div>
+                <div class="badge">
+                    <img class="icon" src="../../assests/icons/heart.png" alt="" />
+                    <div class="number primary">6</div>
+                </div>
+            </div>
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="badge">
+                            &ltimg class="icon" src="url-of-image" alt="icon" />
+                            &ltdiv class="number success">&lt;/div&gt
+                        &lt;/div>
+                        <br>
+                        &ltdiv class="badge">
+                            &ltimg class="icon" src="path of image" alt="Profile Pic" />
+                            &ltdiv class="number danger">&lt/div>
+                        &lt;/div>
+                        <br>
+                        &ltdiv class="badge">
+                            &ltimg class="icon" src="path of image" alt="Profile Pic" />
+                            &ltdiv class="number primary">&lt/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+            
+        </main>
+    </div>
+    <br /><br />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
