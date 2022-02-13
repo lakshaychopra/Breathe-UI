@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li><a class="link" href="../components/alert/alert.html">Alert</a></li>
+                    <li><a class="link" href="#">Avatar</a></li>
+                    <li><a class="link" href="#">Badge</a></li>
+                    <li><a class="link" href="#">Button</a></li>
+                    <li><a class="link" href="#">Card</a></li>
+                    <li><a class="link" href="#">Image</a></li>
+                    <li><a class="link" href="#">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Avatar</h1>
+            <p>Avatars are images that users can set as their profile picture. They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.
+            </p>
+            <br /><br />
+            <h1 class="heading">Profile Avatar</h1>
+            <p>Profile Avatar can be created by giving avatar class to the img element</p>
+
+            <div class="example-row">
+                <img class="avatar" src="../../assests/avatar/1.jpg" alt="">
+                <img class="avatar" src="../../assests/avatar/Female-LinkedIn-portrait.jpg" alt="">
+                <img class="avatar" src="../../assests/avatar/wp-2021-01-linkedin-profile-picture-professional-attire.webp" alt="">
+            </div>
+
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &ltimg class="avatar" src="https://url-of-the-image">
+                        <br>
+                        &ltimg class="avatar" src="path-of-image">    
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Avatar sizes</h1>
+            <p>Avatars can be given different sizes by giving class names sm | md | lg to the existing avatars</p>
+
+            <div class="example-row">
+                <img class="avatar sm" src="../../assests/avatar/1.jpg" alt="">
+                <img class="avatar md" src="../../assests/avatar/Female-LinkedIn-portrait.jpg" alt="">
+                <img class="avatar lg" src="../../assests/avatar/wp-2021-01-linkedin-profile-picture-professional-attire.webp" alt="">
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &ltimg class="avatar sm" src="https://url-of-the-image">
+                        <br>
+                        &ltimg class="avatar md" src="path-of-image">
+                        <br>
+                        &ltimg class="avatar lg" src="path-of-image">
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Square Avatar</h1>
+            <p>Avatars can be given square shape by giving class avatar-sq to the img element </p>
+
+            <div class="example-row">
+                <img class="avatar-sq" src="../../assests/avatar/1.jpg" alt="">
+                <img class="avatar-sq" src="../../assests/avatar/Female-LinkedIn-portrait.jpg" alt="">
+                <img class="avatar-sq" src="../../assests/avatar/wp-2021-01-linkedin-profile-picture-professional-attire.webp" alt="">
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &ltimg class="avatar-sq" src="https://url-of-the-image">
+                        <br>
+                        &ltimg class="avatar-sq" src="path-of-image">
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
