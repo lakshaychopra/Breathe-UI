@@ -10,7 +10,6 @@
 }
 
 .main-section .example {
-    height: 40vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,6 +19,7 @@
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin: 2rem 0;
+    padding: 1.5rem;
     gap: 1rem;
 }
 
