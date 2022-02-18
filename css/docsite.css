@@ -10,7 +10,6 @@
 }
 
 .main-section .example {
-    height: 40vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,19 +19,20 @@
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin: 2rem 0;
+    padding: 1.5rem;
     gap: 1rem;
 }
 
 .main-section .example-row {
-    height: 10vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #f8f9fa;
     border: 1px solid lightgrey;
     border-radius: 10px;
     margin: 2rem 0;
+    padding: 1.5rem;
     gap: 1rem;
 }
 

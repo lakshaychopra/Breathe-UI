@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css" />
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="../image/image.css" />
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+    <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="../../documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li>
+                        <a class="link" href="../alert/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a class="link" href="../avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a class="link" href="../badge/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a class="link" href="../button/button.html">Button</a>
+                    </li>
+                    <li>
+                        <a class="link" href="../card/card.html">Card</a>
+                    </li>
+                    <li>
+                        <a class="link" href="../image/image.html">Image</a>
+                    </li>
+                    <li><a class="link" href="#">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Card</h1>
+            <p>
+                A card is a flexible and extensible content container. It
+                includes options for headers and footers, a wide variety of
+                content, contextual background colors, and powerful display
+                options.
+            </p>
+            <br /><br />
+            <h1 class="heading">Card with badge</h1>
+            <p>Card with badge contains a badge at the top-left of the card</p>
+
+            <div class="example">
+                <div class="card card-shadow">
+                    <div class="card-header">
+                        <img class="img-resp"
+                            src="../../assests/images/1623959191-medium-plant-dieffenbachia-white-pot_2048x.jpg"
+                            alt="" />
+                        <div class="card-icon">
+                            <i class="far fa-heart card-icon"></i>
+                        </div>
+                        <div class="card-badge">New</div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Card Title</h3>
+                        <h5 class="card-sub-title">Sub-Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum recusandae
+                            accusamus sequi laborum culpa a.</p>
+                        <div class="card-btns">
+                            <a class="btn btn-success" href="">Button 1</a>
+                            <a class="btn btn-outline-success" href="">Button 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="card card-shadow">
+                            &lt;div class="card-header">
+                            &lt;img class="img-resp"
+                                    src="image url or path" alt="" />
+                                &lt;div class="card-icon">
+                                    &lt;i class="far fa-heart card-icon">&lt;/i>
+                                &lt;/div>
+                                &lt;div class="card-badge">New&lt;/div>
+                            &lt;/div>
+                            &lt;div class="card-body">
+                                &lt;h3 class="card-title">Card Title&lt;/h3>
+                                &lt;h5 class="card-category">Sub Title&lt;/h5>
+                                &lt;p class="card-text">Description of card content&lt;/p>  
+                                &lt;div class="card-btns">
+                                    &lt;a class="btn btn-success" href="">Button 1&lt;/a>
+                                    &lt;a class="btn btn-outline-success" href="">Button 2&lt;/a>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Card with text overlay</h1>
+            <p>Card with text overlay contains an overlay on top of it.</p>
+
+            <div class="example">
+                <div class="card card-overlay">
+                    <div class="card-header">
+                        <img class="img-resp"
+                            src="../../assests/images/1623959191-medium-plant-dieffenbachia-white-pot_2048x.jpg"
+                            alt="" />
+                        <div class="card-icon">
+                            <i class="far fa-heart card-icon"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Card Title</h3>
+                        <h5 class="card-sub-title">Sub Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fuga hic a
+                            dicta, repudiandae asperiores!</p>
+                        <div class="card-btns">
+                            <a class="btn btn-success" href="">Button 1</a>
+                            <a class="btn btn-outline-success" href="">Button 2</a>
+                        </div>
+                    </div>
+                    <div class="txt-overlay">
+                        Coming Soon
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="card card-shadow">
+                            &lt;div class="card-header">
+                            &lt;img class="img-resp"
+                                    src="image url or path" alt="" />
+                                &lt;div class="card-icon">
+                                    &lt;i class="far fa-heart card-icon">&lt;/i>
+                                &lt;/div>
+                                &lt;div class="card-badge">New&lt;/div>
+                            &lt;/div>
+                            &lt;div class="card-body">
+                                &lt;h3 class="card-title">Card Title&lt;/h3>
+                                &lt;h5 class="card-sub-title">Sub-Title&lt;/h5>
+                                &lt;p class="card-text">Description of card content&lt;/p>  
+                                &lt;div class="card-btns">
+                                    &lt;a class="btn btn-success" href="">Button 1&lt;/a>
+                                    &lt;a class="btn btn-outline-success" href="">Button 2&lt;/a>
+                                &lt;/div>
+                            &lt;/div>
+                            &lt;div class="txt-overlay">
+                                Coming Soon
+                            &lt;/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Horizontal Card</h1>
+            <p>Horizontal Cards place the card content in horizontal manner</p>
+
+            <div class="example-row">
+                <div class="card-horizontal card-shadow">
+                    <div class="card-header">
+                        <img class="img-resp"
+                            src="../../assests/images/1623959191-medium-plant-dieffenbachia-white-pot_2048x.jpg"
+                            alt="" />
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Card Title</h3>
+                        <h5 class="card-sub-title">Sub-Title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, iste?
+                        </p>
+                        <div class="card-btns">
+                            <a class="btn btn-success" href="">Button 1</a>
+                            <a class="btn btn-outline-success" href="">Button 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div class="code-section">
+        <pre>
+            <code class="language-html html-snippet">
+                &lt;div class="card-horizontal card-shadow">
+                    &lt;div class="card-header">
+                    &lt;img class="img-resp"
+                            src="image url or path" alt="" />
+                    &lt;/div>
+                    &lt;div class="card-body">
+                        &lt;h3 class="card-title">Card Title&lt;/h3>
+                        &lt;h5 class="card-category">category&lt;/h5>
+                        &lt;p class="card-text">Description of card content&lt;/p>  
+                        &lt;div class="card-btns">
+                            &lt;a class="btn btn-success" href="">Button 1&lt;/a>
+                            &lt;a class="btn btn-outline-success" href="">Button 2&lt;/a>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </pre>
+    </div>
+
+    <h1 class="heading"> Text only card</h1>
+    <p>Text only card contains only text content</p>
+
+    <div class="example-row">
+        <div class="card-horizontal card-shadow">
+            <div class="card-body">
+                <h3 class="card-title">Card Title</h3>
+                <h5 class="card-sub-title">Sub Title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae
+                    necessitatibus similique quae quod nihil doloribus officiis, mollitia culpa eum.</p>
+            </div>
+        </div>
+        <div class="card card-shadow">
+            <div class="card-body">
+                <h3 class="card-title">Card Title</h3>
+                <h5 class="card-sub-title">Sub Title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae
+                    necessitatibus similique quae quod nihil doloribus officiis, mollitia culpa eum.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="code-section">
+        <pre>
+            <code class="language-html html-snippet">
+                &lt;div class="card-horizontal card-shadow">
+                    &lt;div class="card-body">
+                        &lt;h3 class="card-title">Card Title&lt;/h3>
+                        &lt;h5 class="card-category">Sub Title&lt;/h5>
+                        &lt;p class="card-text">Description of card content&lt;/p>  
+                    &lt;/div>
+                &lt;/div>
+                <br><br>
+                &lt;div class="card card-shadow">
+                    &lt;div class="card-body">
+                        &lt;h3 class="card-title">Card Title&lt;/h3>
+                        &lt;h5 class="card-category">Sub Title&lt;/h5>
+                        &lt;p class="card-text">Description of card content&lt;/p>
+                    &lt;/div>
+                &lt;/div>
+            </code>
+        </pre>
+    </div>
+
+    <h1 class="heading">Card with a dismiss</h1>
+    <p>Card with dismiss icon will have dismiss icon on top-right corner of the card</p>
+
+    <div class="example-row">
+        <div class="card-horizontal card-shadow">
+            <div class="card-body">
+                <h3 class="card-title">Card Title</h3>
+                <h5 class="card-sub-title">Sub Title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae
+                    necessitatibus similique quae quod nihil doloribus officiis, mollitia culpa eum.</p>
+            </div>
+            <i class="fa-solid fa-xmark dismiss-icon"></i>
+        </div>
+
+        <div class="card card-shadow">
+            <div class="card-body">
+                <h3 class="card-title">Card Title</h3>
+                <h5 class="card-sub-title">Sub Title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae
+                    necessitatibus similique quae quod nihil doloribus officiis, mollitia culpa eum.</p>
+            </div>
+            <i class="fa-solid fa-xmark dismiss-icon"></i>
+        </div>
+    </div>
+
+    <div class="code-section">
+        <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="card-horizontal card-shadow">
+                            &lt;div class="card-body">
+                                &lt;h3 class="card-title">Card Title&lt;/h3>
+                                &lt;h5 class="card-category">Sub Title&lt;/h5>
+                                &lt;p class="card-text">Description of card content&lt;/p>  
+                                &lt;div class="card-btns">
+                                    &lt;a class="btn btn-success" href="">Button 1&lt;/a>
+                                    &lt;a class="btn btn-outline-success" href="">Button 2&lt;/a>
+                                &lt;/div>
+                                &lt;i class="fa-solid fa-xmark dismiss-icon">&lt;/i>
+                            &lt;/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+    </div>
+    </main>
+    </div>
+    <br /><br />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
