@@ -1,0 +1,42 @@
+h1,
+.h1 {
+    font-size: 2rem;
+}
+
+h2,
+.h2 {
+    font-size: 1.6rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.2rem;
+}
+
+h4,
+.h4 {
+    font-size: 1rem;
+}
+
+.lg {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.md {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.sm {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.grey-txt {
+    color: grey;
+}
+
+.center-txt {
+    text-align: center;
+}

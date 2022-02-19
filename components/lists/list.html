@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="../alert/alert.css">
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="../../documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li><a class="link" href="../alert/alert.html">Alert</a></li>
+                    <li><a class="link" href="../avatar/avatar.html">Avatar</a></li>
+                    <li><a class="link" href="../badge/badge.html">Badge</a></li>
+                    <li><a class="link" href="../button/button.html">Button</a></li>
+                    <li><a class="link" href="../card/card.html">Card</a></li>
+                    <li><a class="link" href="../image/image.html">Image</a></li>
+                    <li><a class="link" href="../input/input.html">Input</a></li>
+                    <li><a class="link" href="../text-utilities/text-utilites.html">Text Utilities</a></li>
+                    <li><a class="link" href="../lists/list.html">List</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">List</h1>
+            <p>List are powerful component to display series of content</p>
+            <br /><br />
+            <h1 class="heading">Default List</h1>
+            <p>Add list class to ul tag and list-items to li tag to use this component</p>
+
+            <div class="example">
+                <ul class="list">
+                    <li class="list-title list-item">List Title</li>
+                    <li class="list-item">List Item 1</li>
+                    <li class="list-item">List Item 2</li>
+                    <li class="list-item">List Item 3</li>
+                    <li class="list-item">List Item 4</li>
+                </ul>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;ul class="list">
+                            &lt;li class="list-title list-item">List Title&lt;/li>
+                            &lt;li class="list-item">List Item 1&lt;/li>
+                            &lt;li class="list-item">List Item 2&lt;/li>
+                            &lt;li class="list-item">List Item 3&lt;/li>
+                            &lt;li class="list-item">List Item 4&lt;/li>
+                        &lt;/ul>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Horizontal List</h1>
+            <p>Use horizontal-list class to ul tag to use this component</p>
+
+            <div class="example">
+                <ul class="horizontal-list">
+                    <li  class="list-item">List Item 1</li>
+                    <li  class="list-item">List Item 2</li>
+                    <li  class="list-item">List Item 3</li>
+                    <li  class="list-item">List Item 4</li>
+                </ul>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;ul class="horizontal-list">
+                            &lt;li class="list-item">List Item 1&lt;/li>
+                            &lt;li class="list-item">List Item 2&lt;/li>
+                            &lt;li class="list-item">List Item 3&lt;/li>
+                            &lt;li class="list-item">List Item 4&lt;/li>
+                        &lt;/ul>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Spaced List</h1>
+            <p>Spaced list contains space between list items.Use space-list class with list class in ul element to use this component</p>
+
+            <div class="example">
+                <ul class="list spaced-list">
+                    <li class="list-title list-item">List Title</li>
+                    <li  class="list-item">List Item 1</li>
+                    <li  class="list-item">List Item 2</li>
+                    <li  class="list-item">List Item 3</li>
+                    <li  class="list-item">List Item 4</li>
+                </ul>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;ul class="list spaced-list">
+                            &lt;li class="list-title list-item">List Title&lt;/li>
+                            &lt;li class="list-item">List Item 1&lt;/li>
+                            &lt;li class="list-item">List Item 2&lt;/li>
+                            &lt;li class="list-item">List Item 3&lt;/li>
+                            &lt;li class="list-item">List Item 4&lt;/li>
+                        &lt;/ul>
+                    </code>
+                </pre>
+            </div>
+            <h1 class="heading">Stacked List</h1>
+            <p>Stacked List can be used for notification messages. Use stacked-list class in ul tag to use this component</p>
+
+            <div class="example">
+                <ul class="stacked-list">
+                    <li class="list-item">
+                        <div class="alert alert-success-fl">This is a success alert message</div>
+                    </li>
+                    <li class="list-item">
+                        <div class="alert alert-warning-fl">This is a warning alert message</div>
+                    </li>
+                    <li class="list-item">
+                        <div class="alert alert-info-fl">This is an info alert message</div>
+                    </li>
+                    <li class="list-item">
+                        <div class="alert alert-danger-fl">This is a danger alert messge</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;ul class="stacked-list">
+                            &lt;li class="list-item">
+                                &lt;div class="alert alert-success-fl">This is a success alert message&lt;/div>
+                            &lt;/li>
+                            &lt;li class="list-item">
+                                &lt;div class="alert alert-warning-fl">This is a warning alert message&lt;/div>
+                            &lt;/li>
+                            &lt;li class="list-item">
+                                &lt;div class="alert alert-info-fl">This is an info alert message&lt;/div>
+                            &lt;/li>
+                            &lt;li class="list-item">
+                                &lt;div class="alert alert-danger-fl">This is a danger alert messge&lt;/div>
+                            &lt;/li>
+                        &lt;/ul>
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
