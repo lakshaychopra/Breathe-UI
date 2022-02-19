@@ -23,11 +23,38 @@
     gap: 1rem;
 }
 
+.main-section .example-start {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
 .main-section .example-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.main-section .example-row-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
     background-color: #f8f9fa;
     border: 1px solid lightgrey;
     border-radius: 10px;

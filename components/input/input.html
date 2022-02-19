@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathe UI</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/docsite.css" />
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+        <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <nav class="navbar">
+        <div class="title-section">
+            <a class="nav-logo" href="#">
+                <img src="../../assests/logo/8-16.webp" alt="" />
+            </a>
+            <a class="nav-title" href="#">BREATHE UI</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a class="link" href="../../index.html">Home</a></li>
+                <li>
+                    <a class="link" href="../../documentation/introduction.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <aside class="sidebar">
+            <div class="sidebar-list">
+                <div class="list-heading">Get Started</div>
+                <ul>
+                    <li><a class="link" href="#">Introduction</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list">
+                <div class="list-heading">Components</div>
+                <ul>
+                    <li><a class="link" href="../alert/alert.html">Alert</a></li>
+                    <li><a class="link" href="../avatar/avatar.html">Avatar</a></li>
+                    <li><a class="link" href="../badge/badge.html">Badge</a></li>
+                    <li><a class="link" href="../button/button.html">Button</a></li>
+                    <li><a class="link" href="../card/card.html">Card</a></li>
+                    <li><a class="link" href="../image/image.html">Image</a></li>
+                    <li><a class="link" href="../input/input.html">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-section">
+            <h1 class="heading">Input Group</h1>
+            <p>Use the input Group class to the container containing the various inputs</p>
+            <div class="example-start">
+                <div class="input-group">
+                    <span>Username</span>
+                    <input type="text" placeholder="Enter Username">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span>Password</span>
+                    <input type="password" placeholder="Enter Password">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span>Email</span>
+                    <input type="email" name="" id="" placeholder="Enter your Email">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span>Textarea</span>
+                    <Textarea placeholder="Enter content"></Textarea>
+                </div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="input-group">
+                            &lt;span>Username&lt;/span>
+                            &lt;input type="text" placeholder="Enter Username">
+                        &lt;/div>
+                        <br>
+                        &lt;div class="input-group">
+                            &lt;span>Password&lt;/span>
+                            &lt;input type="password" placeholder="Enter Password">
+                        &lt;/div>
+                        <br>
+                        &lt;div class="input-group">
+                            &lt;span>Email&lt;/span>
+                            &lt;input type="email" name="" id="" placeholder="Enter your Email">
+                        &lt;/div>
+                        <br>
+                        &lt;div class="input-group">
+                            &lt;span>Textarea&lt;/span>
+                            &lt;Textarea placeholder="Enter content">&lt;/Textarea>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+
+            <h1 class="heading">Input Group with validation</h1>
+            <p>Use the follwing code snippets to add validation over input group.</p>
+            <div class="example-start">
+                <div class="input-group">
+                    <span>Password</span>
+                    <input class="error" type="password" placeholder="Enter Password">
+                </div>
+                <div class="input-group">
+                    <span>Enter Password Again</span>
+                    <input class="error" type="password" placeholder="Enter Password">
+                    <div class="error-msg">Password does not match</div>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span>Email</span>
+                    <input class="error" type="email" name="" id="" placeholder="Enter your Email">
+                    <div class="error-msg">Enter Valid Email</div>
+                </div>
+            </div>
+
+            <div class="code-section">
+                <pre>
+                    <code class="language-html html-snippet">
+                        &lt;div class="input-group">
+                            &lt;span>Password&lt;/span>
+                            &lt;input class="error" type="password" placeholder="Enter Password">
+                        &lt;/div>
+                        &lt;div class="input-group">
+                            &lt;span>Enter Password Again&lt;/span>
+                            &lt;input class="error" type="password" placeholder="Enter Password">
+                            &lt;div class="error-msg">Password does not match&lt;/div>
+                        &lt;/div>
+                        <br>
+                        &lt;div class="input-group">
+                            &lt;span>Email&lt;/span>
+                            &lt;input class="error" type="email" name="" id="" placeholder="Enter your Email">
+                            &lt;div class="error-msg">Enter Valid Email&lt;/div>
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>
+        </main>
+    </div>
+    <br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

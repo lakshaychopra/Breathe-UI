@@ -1,0 +1,23 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+}
+
+.input-group input,
+textarea {
+    width: 80%;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.input-group .error {
+    border: 1px solid red;
+}
+
+.error-msg {
+    color: red;
+}
