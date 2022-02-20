@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="../../css/navbar.css" />
     <link rel="stylesheet" href="../../css/sidebar.css">
     <link rel="stylesheet" href="../../css/docsite.css" />
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="../alert/alert.css">
+    <link rel="stylesheet" href="toast.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
-        <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
-    </head>
+    <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
     <nav class="navbar">
@@ -60,38 +61,58 @@
         </aside>
 
         <main class="main-section">
-            <h1 class="heading">Responsive Images</h1>
-            <p>Responsive images shows visual content on a website in a responsive way. These images are screen responsive.</p>
-            <br />
+            <h1 class="heading">Toast</h1>
+            <p>Toast are temporary notifications which appear for few seconds.</p>
 
-            <div class="example-row">
-                <img class="img-resp" src="../../assests/images/photo-1528715471579-d1bcf0ba5e83.jpg" alt="">
+            <div class="example">
+                <div class="toast toast-success">
+                    <i class="fa-regular fa-circle-check"></i>
+                    This is a success message
+                    <i class="fa-solid fa-xmark cross"></i>
+                </div>
+                <div class="toast toast-warning">
+                    <i class="fa-regular fa-triangle-exclamation"></i>
+                    This is a warning message
+                    <i class="fa-solid fa-xmark cross"></i>
+                </div>
+                <div class="toast toast-info">
+                    <i class="fa-regular fa-circle-info"></i>
+                    This is an info message
+                    <i class="fa-solid fa-xmark cross"></i>
+                </div>
+                <div class="toast toast-danger">
+                    <i class="fa-regular fa-circle-exclamation"></i>
+                    This is a danger messge
+                    <i class="fa-solid fa-xmark cross"></i>
+                </div>
             </div>
 
             <div class="code-section">
                 <pre>
                     <code class="language-html html-snippet">
-                        &lt;img class="img-resp" src="path to image" alt="responsive image">
+                        &lt;div class="toast toast-success">
+                            &lt;i class="fa-regular fa-circle-check">&lt;/i>
+                            This is a success message
+                            &lt;i class="fa-solid fa-xmark cross">&lt;/i>
+                        &lt;/div>
+                        &lt;div class="toast toast-warning">
+                            &lt;i class="fa-regular fa-triangle-exclamation">&lt;/i>
+                            This is a warning message
+                            &lt;i class="fa-solid fa-xmark cross">&lt;/i>
+                        &lt;/div>
+                        &lt;div class="toast toast-info">
+                            &lt;i class="fa-regular fa-circle-info">&lt;/i>
+                            This is an info message
+                            &lt;i class="fa-solid fa-xmark cross">&lt;/i>
+                        &lt;/div>
+                        &lt;div class="toast toast-danger">
+                            &lt;i class="fa-regular fa-circle-exclamation">&lt;/i>
+                            This is a danger messge
+                            &lt;i class="fa-solid fa-xmark cross">&lt;/i>
+                        &lt;/div>
                     </code>
                 </pre>
             </div>
-
-            <h1 class="heading">Round Images</h1>
-            <p>To make images round use round-img class with img element.</p>
-            <br />
-
-            <div class="example-row">
-                <img class="img-resp img-round" src="../../assests/images/photo-1528715471579-d1bcf0ba5e83.jpg" alt="">
-            </div>
-
-            <div class="code-section">
-                <pre>
-                    <code class="language-html html-snippet">
-                        &lt;img class="img-resp" src="path to image" alt="responsive round image">
-                    </code>
-                </pre>
-            </div>
-
         </main>
     </div>
     <br><br>
