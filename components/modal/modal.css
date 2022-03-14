@@ -1,0 +1,32 @@
+.modal {
+    background-color: white;
+    padding: 1.2rem;
+    max-width: 40ch;
+    position: relative;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal-body {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal-btns {
+    display: flex;
+    padding: 1rem;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.cross {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="../../css/navbar.css" />
     <link rel="stylesheet" href="../../css/sidebar.css" />
     <link rel="stylesheet" href="../../css/docsite.css" />
-    <link rel="stylesheet" href="text-utilities.css" />
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="modal.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
-</head>
+    <script src="https://kit.fontawesome.com/dd034b1882.js" crossorigin="anonymous"></script>
+    </head>
 
 <body>
     <nav class="navbar">
@@ -73,70 +75,38 @@
         </aside>
 
         <main class="main-section">
-            <h1 class="heading">Text Utilities</h1>
-            <p>Text-Utilities contains various type of text formatting(Sizes, font-style etc)</p>
-
-            <br><br>
-            <h1 class="heading">Headings</h1>
-            <p>Various type of headings can be applied to the according to usage. Either use tags or classes mentioned below to use these component</p>
-
-            <div class="example-start">
-                <h1 class="h1">Heading 1</h1>
-                <h2 class="h2">Heading 2</h2>
-                <h3 class="h3">Heading 3</h3>
-                <h4 class="h4">Heading 4</h4>
+            <h1 class="heading">Modal</h1>
+            <p>A modal is a dialog box/popup window that is displayed on the current usually requring user to do some action.
+                Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove scroll from the <body> so that modal content scrolls instead.
+            </p>
+            <div class="example">
+                <div class="modal">
+                    <div class="modal-title">
+                        Modal Title
+                    </div>
+                    <div class="modal-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, cupiditate.</div>
+                    <div class="modal-btns">
+                        <button class="btn btn-primary">Button1</button>
+                        <button class="btn btn-secondary">Button 2</button>
+                    </div>
+                    <i class="fa-regular fa-xmark cross"></i>
+                </div>
             </div>
 
             <div class="code-section">
                 <pre>
                     <code class="language-html html-snippet">
-                        &lt;h1 class="h1">Heading 1&lt;/h1>
-                        <br>
-                        &lt;h2 class="h2">Heading 2&lt;/h2>
-                        <br>
-                        &lt;h3 class="h3">Heading 3&lt;/h3>
-                        <br>
-                        &lt;h4 class="h4">Heading 4&lt;/h4>
-                    </code>
-                </pre>
-            </div>
-            
-            
-            <h1 class="heading">Font Size</h1>
-            <p>Various type of font-sizes can be applied to the text. Use the classes mentioned below to use these component.</p>
-
-            <div class="example-start">
-                <div class="lg">Large Font Size</div>
-                <div class="md">Medium Font Size</div>
-                <div class="sm">Small Font Size</div>
-            </div>
-
-            <div class="code-section">
-                <pre>
-                    <code class="language-html html-snippet">
-                        &lt;div class="lg">Large Font Size&lt;/div>
-                        <br>
-                        &lt;div class="md">Medium Font Size&lt;/div>
-                        <br>
-                        &lt;div class="sm">Small Font Size&lt;/div>
-                    </code>
-                </pre>
-            </div>
-
-            <h1 class="heading">Text Formatting</h1>
-            <p>Various styles of formatting can be applied to the text using following mentioned classes.</p>
-
-            <div class="example-start">
-                <div class="grey-txt">Grey Text</div>
-                <div class="center-txt">Center Text</div>
-            </div>
-
-            <div class="code-section">
-                <pre>
-                    <code class="language-html html-snippet">
-                        &lt;div class="grey-txt">Grey Text&lt;/div>
-                        <br>
-                        &lt;div class="center-txt">Center Text&lt;/div>
+                        &lt;div class="modal">
+                            &lt;div class="modal-title">
+                                Modal Title
+                            &lt;/div>
+                            &lt;div class="modal-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, cupiditate.&lt;/div>
+                            &lt;div class="modal-btns">
+                                &lt;button class="btn btn-primary">Button1&lt;/button>
+                                &lt;button class="btn btn-secondary">Button 2&lt;/button>
+                            &lt;/div>
+                            &lt;i class="fa-regular fa-xmark cross">&lt;/i>
+                        &lt;/div>
                     </code>
                 </pre>
             </div>
